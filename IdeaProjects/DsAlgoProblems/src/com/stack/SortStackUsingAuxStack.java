@@ -16,7 +16,7 @@ public class SortStackUsingAuxStack {
         iStack.push(1);
         iStack.push(4);
         Stack<Integer> sortedStk = sortStack(iStack);
-        System.out.println(sortedStk.toString());
+        //System.out.println(sortedStk.toString());
     }
 
     public static Stack<Integer> sortStack(Stack<Integer> iStack) {
